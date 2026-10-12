@@ -1,0 +1,6 @@
+{
+  "name": "StreamPulse - Command Center",
+  "description": "Centro de Comando de Feeds y Tendencias en tiempo real sin algoritmos distractores para Desktop y PWA móvil.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

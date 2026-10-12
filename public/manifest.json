@@ -1,0 +1,43 @@
+{
+  "id": "/",
+  "name": "StreamPulse Command Center",
+  "short_name": "StreamPulse",
+  "description": "Centro de Comando de Feeds y Tendencias de alto rendimiento sin algoritmos distractores.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#070a12",
+  "theme_color": "#090d16",
+  "categories": ["news", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Feed Rápido",
+      "short_name": "Feed",
+      "description": "Abrir el feed principal en vivo",
+      "url": "/?view=feed",
+      "icons": [{ "src": "/icon.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Búnker Desktop",
+      "short_name": "Búnker",
+      "description": "Abrir vista de monitoreo multiventana",
+      "url": "/?view=desktop",
+      "icons": [{ "src": "/icon.svg", "sizes": "192x192" }]
+    }
+  ]
+}
